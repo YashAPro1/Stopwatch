@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.container {
+    background-color: aqua;
+    /* top  = 50% */
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 5px 5px rgb(16, 19, 53);
+    
+    
+}
+
+#timeDisplay{
+    font-size: 75px;
+    font-family:sans-serif;
+}
+button{
+    height: 50px;
+    width: 75px;
+    border-radius: 20px;
+    border: 3px solid darkblue;
+    cursor: pointer;
+    margin: 20px;
+    font-family: cursive;
+}
+
+button:hover{
+    transform: scale(1.1,1.1);
+}
+
+
